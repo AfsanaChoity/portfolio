@@ -19,7 +19,7 @@ body {
 }
 
 .section-title {
-    color:  #181818;
+    color: #181818;
     text-align: center;
 
     font-size: 35px;
@@ -31,9 +31,9 @@ body {
 .section-des {
     color: #757575;
     text-align: center;
-    
+
     font-size: 18px;
-    
+
 }
 
 /* nav related style */
@@ -119,10 +119,54 @@ header {
 
 /* main section */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+    margin-right: 50px;
+    max-width: 200px;
+    max-height: 60px;
+}
+
+.info-title {
+    color: #757575;
+
+
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.info-des {
+    color: #474747;
+
+    font-size: 20px;
+
+    font-weight: 700;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#what-i-do{
+    padding: 30px 150px;
+}
+
+.skill-container{
+    display: flex;
 }
